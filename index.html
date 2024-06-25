@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форум</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="message-board">
+        <div class="message">
+            <div class="message-header">
+                <span class="name">Сигма</span>
+                <span class="timestamp">00:00:00 25.06.2024</span>
+            </div>
+            <div class="message-body">
+                йоууу, привет
+            </div>
+        </div>
+    </div>
+
+    <form id="messageForm">
+        <h3>Чат:</h3>
+        <label for="name">Никнейм:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="message">Сообщение:</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit">Кинуть</button>
+    </form>
+
+    <script src="main.js"></script>
+</body>
+</html>
